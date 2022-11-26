@@ -1,0 +1,10 @@
+name: Tyho
+author: usy4
+api: [4.0.0]
+version: 1.0.0
+main: usy4\Tyho\Main
+descriptions: take your head off
+
+permissions:
+  tyho.command:
+    default: true
