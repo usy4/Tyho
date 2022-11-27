@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/usy4/Tyho
+build-by-default: true
+branches:
+- main
+projects:
+  Tyho:
+    path: ""
+    icon: "tyho.png"
+...
