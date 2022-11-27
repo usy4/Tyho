@@ -25,7 +25,7 @@ class Main extends PluginBase {
     } else {
       $player->setSkin(new Skin($skin->getSkinId(), $skin->getSkinData(), "", "geometry.tyho", file_get_contents($this->getDataFolder() . "geo" . "/" . "tyho" . ".json")));
     }   
-    $sender->sendSkin();
+    $player->sendSkin();
   }
     
 }
