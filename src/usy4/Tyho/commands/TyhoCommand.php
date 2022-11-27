@@ -46,7 +46,6 @@ class TyhoCommand extends Command implements PluginOwned
 		}
 
 		$this->plugin->setSkin($sender);
-    
 	}
 	
 	
