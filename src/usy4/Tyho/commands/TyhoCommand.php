@@ -28,7 +28,7 @@ use pocketmine\player\Player;
 
 use usy4\Tyho\Main;
 
-class SwapBallCommand extends Command implements PluginOwned
+class TyhoCommand extends Command implements PluginOwned
 {
 	public function __construct(
 		public Main $plugin
@@ -38,9 +38,9 @@ class SwapBallCommand extends Command implements PluginOwned
 	}
 	
 	public function execute(CommandSender $sender, string $commandLabel, array $args) { 
-    if(!$this->testPermission($sender)) return;
-	
-    if(!$sender instanceof Player) {
+		if(!$this->testPermission($sender)) return;
+  
+		if(!$sender instanceof Player) {			
 			$sender->sendMessage("use this command in game");
 			return;
 		}
@@ -48,6 +48,7 @@ class SwapBallCommand extends Command implements PluginOwned
 		$this->plugin->setSkin($sender);
     
 	}
+	
 	
 	public function getOwningPlugin(): Plugin{
 		return $this->plugin;
