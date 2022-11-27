@@ -2,7 +2,7 @@
 Take your skin head off
 <a
 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-	<img width="100%" align="center" alt="tyho" src="https://cdn.discordapp.com/attachments/931532235172093963/1046338271740960839/Screenshot_20221127_111407.jpg>
+	<img width="100%" align="center" alt="tyho" src="https://cdn.discordapp.com/attachments/931532235172093963/1046338271740960839/Screenshot_20221127_111407.jpg">
 </a>
 # How to use
 Usage: `/tyho` to take your skin head off
