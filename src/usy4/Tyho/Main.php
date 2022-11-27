@@ -14,7 +14,6 @@ class Main extends PluginBase {
     foreach(["tyho.json", "tyhoSlim.json"] as $files){
       $this->saveResource("geo" . "/" . $files);
     }
-    $this->getServer()->getPluginManager()->registerEvents($this, $this);
     $this->getServer()->getCommandMap()->register($this->getName(), new TyhoCommand($this));
   }
      
