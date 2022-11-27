@@ -33,7 +33,7 @@ class TyhoCommand extends Command implements PluginOwned
 	public function __construct(
 		public Main $plugin
 	) {
-		parent::__construct("tyho", "Take your head off", null, null);
+		parent::__construct("tyho", "Take your head off", null, []);
                 $this->setPermission("tyho.command");
 	}
 	
