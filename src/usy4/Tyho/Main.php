@@ -2,7 +2,7 @@
 
 namespace usy4\Tyho;
 
-use usy4\SwapBall\commands\TyhoCommand;
+use usy4\Tyho\commands\TyhoCommand;
 
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
